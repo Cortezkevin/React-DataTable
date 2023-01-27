@@ -1,0 +1,39 @@
+.table {    
+    min-width: 400px;
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tableHeader {
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+}
+
+.tableBody {
+    display: flex;
+    flex-direction: column;    
+    gap: 8px;
+}
+
+.tableHeader .tableCol {
+    padding: 12px;
+}
+
+.tableCol {
+    text-align: center;
+    width: 100%;
+    padding: 18px 15px;
+}
+
+.tableRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px 2px rgba(163, 163, 163, .2);
+}
